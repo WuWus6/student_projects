@@ -53,4 +53,6 @@ Wyświetlanie czasu:
 
 ## Screen
 
+![screen](zrzut.png)
+
 Po wykonaniu testu program wyświetla czas wykonania dla obu przypadków (w mikrosekundach).
