@@ -51,4 +51,6 @@ Porównanie wyników:
 Test wykorzystuje makro ASSERT_EQ, aby sprawdzić, czy suma wyników z obu funkcji (if-else oraz switch) jest taka sama. Jeśli wyniki będą różne, test zakończy się niepowodzeniem.
 Wyświetlanie czasu:
 
+## Screen
+
 Po wykonaniu testu program wyświetla czas wykonania dla obu przypadków (w mikrosekundach).
