@@ -18,7 +18,7 @@ Zwraca:
 30, gdy value == 3
 
 40 dla każdej innej wartości
-
+<br>
 
 compareSwitch(int value)
 
