@@ -5,7 +5,7 @@ Ten program w języku C++ porównuje wydajność instrukcji if-else i switch, ko
 ## Kod
 
 
-Funkcje
+## Funkcje
 compareIf(int value)
 Funkcja korzysta z serii instrukcji if-else, aby zwrócić odpowiednią wartość na podstawie przekazanej liczby value.
 Zwraca:
@@ -24,7 +24,7 @@ Test wydajności
 Test: BenchmarkTest, IfElseBenchmark
 Ten test porównuje czas wykonania funkcji if-else i switch dla 10 000 iteracji.
 
-Pomiar czasu dla if-else:
+## Pomiar czasu dla if-else:
 
 Funkcja compareIf jest wywoływana w pętli 10 000 razy, z wartościami od 0 do 3 (dzięki i % 4, co pozwala przełączać wartości w cyklu).
 Pomiar czasu dla switch:
