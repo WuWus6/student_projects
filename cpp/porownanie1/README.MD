@@ -18,15 +18,26 @@ Zwraca:
 30, gdy value == 3
 
 40 dla każdej innej wartości
+
+
 compareSwitch(int value)
+
 Funkcja korzysta z instrukcji switch, aby zwrócić odpowiednią wartość na podstawie przekazanej liczby value.
 Zwraca:
+
 10, gdy value == 1
+
 20, gdy value == 2
+
 30, gdy value == 3
+
 40 dla każdej innej wartości
+
+
 Test wydajności
+
 Test: BenchmarkTest, IfElseBenchmark
+
 Ten test porównuje czas wykonania funkcji if-else i switch dla 10 000 iteracji.
 
 ## Pomiar czasu dla if-else:
