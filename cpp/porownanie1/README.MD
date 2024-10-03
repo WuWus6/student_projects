@@ -1,4 +1,4 @@
-Benchmark wydajności instrukcji if-else i switch w C++
+##Benchmark wydajności instrukcji if-else i switch w C++
 Opis
 Ten program w języku C++ porównuje wydajność instrukcji if-else i switch, korzystając z frameworka Google Test. Kod mierzy czas wykonania obu konstrukcji dla tej samej liczby iteracji oraz sprawdza, czy wyniki zwracane przez obie funkcje są identyczne. Czas wykonania mierzony jest za pomocą biblioteki chrono w mikrosekundach.
 
