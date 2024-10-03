@@ -7,11 +7,16 @@ Ten program w języku C++ porównuje wydajność instrukcji if-else i switch, ko
 
 ## Funkcje
 compareIf(int value)
+
 Funkcja korzysta z serii instrukcji if-else, aby zwrócić odpowiednią wartość na podstawie przekazanej liczby value.
 Zwraca:
+
 10, gdy value == 1
+
 20, gdy value == 2
+
 30, gdy value == 3
+
 40 dla każdej innej wartości
 compareSwitch(int value)
 Funkcja korzysta z instrukcji switch, aby zwrócić odpowiednią wartość na podstawie przekazanej liczby value.
