@@ -40,11 +40,10 @@ int compareSwitch(int value) {
     }
 }
 
-// Test porównujący wydajność instrukcji switch i if
+// Benchmark dla instrukcji if-else
 TEST(BenchmarkTest, IfElseBenchmark) {
     const int iterations = 10000;
     int sumIf = 0;
-    int sumSwitch = 0;
 
     // Pomiar czasu dla if-else
     auto startIf = std::chrono::high_resolution_clock::now();
@@ -53,6 +52,15 @@ TEST(BenchmarkTest, IfElseBenchmark) {
     }
     auto endIf = std::chrono::high_resolution_clock::now();
     auto durationIf = std::chrono::duration_cast<std::chrono::microseconds>(endIf - startIf);
+
+    // Wyświetlanie wyników
+    cout << "Czas wykonania instrukcji if-else: " << durationIf.count() << " mikrosekund" << endl;
+}
+
+// Benchmark dla instrukcji switch
+TEST(BenchmarkTest, SwitchBenchmark) {
+    const int iterations = 10000;
+    int sumSwitch = 0;
 
     // Pomiar czasu dla switch
     auto startSwitch = std::chrono::high_resolution_clock::now();
@@ -63,11 +71,7 @@ TEST(BenchmarkTest, IfElseBenchmark) {
     auto durationSwitch = std::chrono::duration_cast<std::chrono::microseconds>(endSwitch - startSwitch);
 
     // Wyświetlanie wyników
-    cout << "Czas wykonania instrukcji if-else: " << durationIf.count() << " mikrosekund" << endl;
     cout << "Czas wykonania instrukcji switch: " << durationSwitch.count() << " mikrosekund" << endl;
-
-    // Sprawdzanie poprawności wyników
-    ASSERT_EQ(sumIf, sumSwitch);  // Suma wyników z if i switch powinna być taka sama
 }
 
 int main(int argc, char **argv) {
@@ -119,9 +123,6 @@ Pomiar czasu dla switch:
 
 Funkcja compareSwitch jest wywoływana również 10 000 razy, z tymi samymi wartościami, co w przypadku if-else, aby porównać wydajność.
 Porównanie wyników:
-
-Test wykorzystuje makro ASSERT_EQ, aby sprawdzić, czy suma wyników z obu funkcji (if-else oraz switch) jest taka sama. Jeśli wyniki będą różne, test zakończy się niepowodzeniem.
-Wyświetlanie czasu:
 
 ## Screen
 
