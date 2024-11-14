@@ -74,34 +74,17 @@ int main(int argc, char **argv) {
 
 
 ## Funkcje
-compareIf(int value)
+compareIf(int value) – przyjmuje argument int value i zwraca int. Funkcja zwraca wartość
+10 dla value == 1, 20 dla value == 2, 30 dla value == 3, a w przeciwnym wypadku 40.
 
-Funkcja korzysta z serii instrukcji if-else, aby zwrócić odpowiednią wartość na podstawie przekazanej liczby value.
-Zwraca:
+compareSwitch(int value) – przyjmuje argument int value i zwraca int. Funkcja zwraca wartość
+10 dla value == 1, 20 dla value == 2, 30 dla value == 3, a w przeciwnym wypadku 40.
 
-10, gdy value == 1
+BenchmarkTest::IfElseBenchmark – wykonuje 10 000 iteracji funkcji compareIf z wartościami argumentu 
+cyklicznie zmienianymi przez i % 4. Mierzy czas wykonania instrukcji if-else w mikrosekundach.
 
-20, gdy value == 2
-
-30, gdy value == 3
-
-40 dla każdej innej wartości
-
-
-compareSwitch(int value)
-
-Funkcja korzysta z instrukcji switch, aby zwrócić odpowiednią wartość na podstawie przekazanej liczby value.
-Zwraca:
-
-10, gdy value == 1
-
-20, gdy value == 2
-
-30, gdy value == 3
-
-40 dla każdej innej wartości
-
-
+BenchmarkTest::SwitchBenchmark – wykonuje 10 000 iteracji funkcji compareSwitch z wartościami argumentu 
+cyklicznie zmienianymi przez i % 4. Mierzy czas wykonania instrukcji switch w mikrosekundach.
 ## Test wydajności
 
 Test: BenchmarkTest, IfElseBenchmark
