@@ -92,6 +92,6 @@ Eksperyment wykonany przy użyciu testów benchmarkowych pozwala na porównanie 
 
 ## Screen
 
-![screen](zrzut.png)
+![screen](wynik.png)
 
 Po wykonaniu testu program wyświetla czas wykonania dla obu przypadków (w mikrosekundach).
