@@ -106,4 +106,5 @@ int main(int argc, char **argv) {
 
 Funkcja fizzBuzz działa zgodnie z oczekiwaniami i poprawnie zwraca określone wartości dla liczb podzielnych przez 3, 5 oraz obie te liczby. Testy jednostkowe pokrywają różne scenariusze, w tym liczby, które spełniają każde z warunków funkcji, oraz liczby niespełniające żadnego z nich.
 
+## Wynik
 
