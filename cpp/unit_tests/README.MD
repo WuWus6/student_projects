@@ -108,7 +108,6 @@ Funkcja fizzBuzz działa zgodnie z oczekiwaniami i poprawnie zwraca określone w
 
 ## Wynik
 
-![screen](wynik.png)
+![screen](zrzut.png)
 
-## Wynik
 
