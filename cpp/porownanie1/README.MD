@@ -85,19 +85,10 @@ cyklicznie zmienianymi przez i % 4. Mierzy czas wykonania instrukcji if-else w m
 
 <li>BenchmarkTest::SwitchBenchmark – wykonuje 10 000 iteracji funkcji compareSwitch z wartościami argumentu 
 cyklicznie zmienianymi przez i % 4. Mierzy czas wykonania instrukcji switch w mikrosekundach.
-## Test wydajności
-
-Test: BenchmarkTest, IfElseBenchmark
-
-Ten test porównuje czas wykonania funkcji if-else i switch dla 10 000 iteracji.
 
 ## Pomiar czasu dla if-else:
 
-Funkcja compareIf jest wywoływana w pętli 10 000 razy, z wartościami od 0 do 3 (dzięki i % 4, co pozwala przełączać wartości w cyklu).
-Pomiar czasu dla switch:
-
-Funkcja compareSwitch jest wywoływana również 10 000 razy, z tymi samymi wartościami, co w przypadku if-else, aby porównać wydajność.
-Porównanie wyników:
+Eksperyment wykonany przy użyciu testów benchmarkowych pozwala na porównanie czasu wykonania instrukcji if-else i switch w scenariuszu częstych wywołań obu funkcji. Wyniki wskazują, która z instrukcji jest bardziej wydajna w danym kontekście operacji.
 
 ## Screen
 
