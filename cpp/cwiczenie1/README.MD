@@ -92,4 +92,4 @@ int main(int argc, char **argv) {
 
 ## 4. Wynik
 
-
+![screen](wynik.png)
