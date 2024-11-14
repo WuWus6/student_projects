@@ -103,6 +103,7 @@ int main(int argc, char **argv) {
 ~~~~
 ## Funkcje
 <li>string fizzBuzz(int n): Funkcja przyjmuje liczbę całkowitą n. Zwraca "Fizz" dla liczb podzielnych przez 3, "Buzz" dla liczb podzielnych przez 5, "FizzBuzz" dla liczb podzielnych przez 3 i 5, oraz wartość liczby jako tekst dla pozostałych przypadków.
+
 Funkcja fizzBuzz działa zgodnie z oczekiwaniami i poprawnie zwraca określone wartości dla liczb podzielnych przez 3, 5 oraz obie te liczby. Testy jednostkowe pokrywają różne scenariusze, w tym liczby, które spełniają każde z warunków funkcji, oraz liczby niespełniające żadnego z nich.
 
 
