@@ -94,5 +94,5 @@ int main(int argc, char **argv) {
 
 ![screen](wynik.png)
 
-Eksperyment polegał na uruchomieniu obu funkcji sortujących (QuickSort i BubbleSort) na wektorze 10000 losowych liczb oraz pomiarze czasu ich wykonania.
+Eksperyment polegał na uruchomieniu obu funkcji sortujących (QuickSort i BubbleSort) na wektorze 10000 losowych liczb oraz pomiarze czasu ich wykonania.Testy wykazały, że QuickSort jest szybszy od BubbleSort.
 
