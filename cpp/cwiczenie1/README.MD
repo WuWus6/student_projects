@@ -93,3 +93,6 @@ int main(int argc, char **argv) {
 ## 4. Wynik
 
 ![screen](wynik.png)
+
+Eksperyment polegał na uruchomieniu obu funkcji sortujących (QuickSort i BubbleSort) na wektorze 10000 losowych liczb oraz pomiarze czasu ich wykonania.
+
