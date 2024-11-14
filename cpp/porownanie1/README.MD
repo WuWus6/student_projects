@@ -75,7 +75,7 @@ int main(int argc, char **argv) {
 
 ## Funkcje
 <li>compareIf(int value) – przyjmuje argument int value i zwraca int. Funkcja zwraca wartość
-10 dla value == 1, 20 dla value == 2, 30 dla value == 3, a w przeciwnym wypadku 40.
+10 dla value == 1, 20 dla value == 2, 30 dla value == 3, a w przeciwnym wypadku 40.<br/>
 <br/>
 
 <li>compareSwitch(int value) – przyjmuje argument int value i zwraca int. Funkcja zwraca wartość
