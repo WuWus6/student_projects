@@ -1,6 +1,6 @@
 ## Dokumentacja BubbleSort QuickSort
 ## 1. Wstęp
-Kod przedstawia implementację dwóch algorytmów sortowania: BubbleSort oraz QuickSort, a także testy porównujące ich wydajność. Celem jest ocena czasu wykonania obu algorytmów na dużym zbiorze danych oraz wyciągnięcie wniosków na temat ich efektywności.
+Program to implementacja dwóch algorytmów sortowania: BubbleSort oraz QuickSort, a także testy porównujące ich wydajność. Celem jest ocena czasu wykonania obu algorytmów na dużym zbiorze danych oraz wyciągnięcie wniosków na temat ich efektywności.
 
 ## 2. Kod
 ~~~ cpp
