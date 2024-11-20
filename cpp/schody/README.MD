@@ -8,7 +8,7 @@ Program oblicza parametry schodów na podstawie podanych danych wejściowych zgo
 ![screen](schody_wymiary.png)
 
 ## Kod
-
+~~~~ cpp
 #include <iostream>
 #include <cmath>
 #include <stdexcept>
