@@ -6,3 +6,7 @@ Program oblicza parametry schodów na podstawie podanych danych wejściowych zgo
 ## Ilustracja poglądowa
 
 ![screen](schody_wymiary.png)
+
+## Kod
+
+            
