@@ -7,7 +7,7 @@ Program oblicza parametry schodów na podstawie podanych danych wejściowych zgo
 
 ![screen](schody_wymiary.png)
 
-## Kod
+## Kod kalkulatora
 ~~~~ cpp
 #include <iostream>
 #include <cmath>
@@ -48,4 +48,8 @@ private:
     double wysokoscPietra;       // Wysokość kondygnacji (w cm)
 };
 ~~~~
+
+## Kod funkcji main
+~~~~ cpp
+
             
