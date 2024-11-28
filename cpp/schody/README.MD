@@ -83,3 +83,5 @@ Funkcja main odpowiada za interakcję z użytkownikiem, przyjmując wartości we
 ## Kod test
 ~~~~ cpp
 
+~~~~
+## Wynik testu
