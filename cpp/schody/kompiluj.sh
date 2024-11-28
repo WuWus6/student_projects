@@ -2,7 +2,7 @@
 rm main
 clear
 echo "----Kompilacja programu----"
-g++ -o main main.cpp
+g++ -o main schody.cpp
 echo "---Kompilacja ukonczona----"
 echo "---Uruchamianie programu---"
 chmod +x main
