@@ -37,30 +37,30 @@ private:
     double wysokoscPietra;       // Wysokość kondygnacji (w cm)
 };
 
-int main() {
-    double dlugoscSchodow, wysokoscPietra, wysokoscStopniaDocelowa;
+// int main() {
+//     double dlugoscSchodow, wysokoscPietra, wysokoscStopniaDocelowa;
     
-    std::cout << "Podaj długość biegu schodów (w cm): ";
-    std::cin >> dlugoscSchodow;
-    std::cout << "Podaj wysokość kondygnacji (w cm): ";
-    std::cin >> wysokoscPietra;
+//     std::cout << "Podaj długość biegu schodów (w cm): ";
+//     std::cin >> dlugoscSchodow;
+//     std::cout << "Podaj wysokość kondygnacji (w cm): ";
+//     std::cin >> wysokoscPietra;
     
-    std::cout << "Podaj docelową wysokość stopnia (w cm, pomiędzy 17 a 19): ";
-    std::cin >> wysokoscStopniaDocelowa;
+//     std::cout << "Podaj docelową wysokość stopnia (w cm, pomiędzy 17 a 19): ";
+//     std::cin >> wysokoscStopniaDocelowa;
 
-    try {
-        KalkulatorSchodow kalkulator(dlugoscSchodow, wysokoscPietra);
+//     try {
+//         KalkulatorSchodow kalkulator(dlugoscSchodow, wysokoscPietra);
 
-        int iloscStopni = kalkulator.obliczLiczbeStopni(wysokoscStopniaDocelowa);
-        double rzeczywistaWysokoscStopnia = kalkulator.obliczWysokoscStopnia(iloscStopni);
-        double glebokoscStopnia = kalkulator.obliczGlebokoscStopnia(iloscStopni);
+//         int iloscStopni = kalkulator.obliczLiczbeStopni(wysokoscStopniaDocelowa);
+//         double rzeczywistaWysokoscStopnia = kalkulator.obliczWysokoscStopnia(iloscStopni);
+//         double glebokoscStopnia = kalkulator.obliczGlebokoscStopnia(iloscStopni);
 
-        std::cout << "Liczba stopni: " << iloscStopni << std::endl;
-        std::cout << "Wysokość każdego stopnia: " << rzeczywistaWysokoscStopnia << " cm" << std::endl;
-        std::cout << "Głębokość każdego stopnia: " << glebokoscStopnia << " cm" << std::endl;
-    } catch (const std::exception& e) {
-        std::cerr << "Błąd: " << e.what() << '\n';
-    }
+//         std::cout << "Liczba stopni: " << iloscStopni << std::endl;
+//         std::cout << "Wysokość każdego stopnia: " << rzeczywistaWysokoscStopnia << " cm" << std::endl;
+//         std::cout << "Głębokość każdego stopnia: " << glebokoscStopnia << " cm" << std::endl;
+//     } catch (const std::exception& e) {
+//         std::cerr << "Błąd: " << e.what() << '\n';
+//     }
 
     return 0;
 }
