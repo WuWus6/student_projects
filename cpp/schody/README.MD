@@ -79,4 +79,4 @@ int main() {
     return 0;
 }
 ~~~~
-            
+Funkcja main odpowiada za interakcję z użytkownikiem, przyjmując wartości wejściowe i wywołując odpowiednie metody klasy KalkulatorSchodow. W razie błędnych wartości wejściowych (np. niewłaściwa wysokość stopnia) program wyświetli odpowiedni komunikat błędu.
