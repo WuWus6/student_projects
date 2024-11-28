@@ -1,5 +1,7 @@
 ## Wstęp
+Celem dokumentacji jest przedstawienie implementacji oraz analizy wydajności dwóch algorytmów sortujących: Bubble Sort oraz Quick Sort. Program porówna efektywność tych algorytmów za pomocą testów jednostkowych.
 
+Zakres
 
 ## Kod testów
 ~~~~ cpp
