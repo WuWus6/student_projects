@@ -102,3 +102,5 @@ TEST(KalkulatorSchodowTest, ObliczGlebokoscStopnia) {
 ~~~~
 Testy sprawdzają poprawność metod klasy KalkulatorSchodow, weryfikując, czy wyniki są zgodne z oczekiwaniami.
 ## Wynik testu
+
+![screen](wynik.png)
