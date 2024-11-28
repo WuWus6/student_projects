@@ -89,3 +89,20 @@ int main(int argc, char **argv) {
 }
 
 ~~~~
+## Funkcje
+bubbleSort
+
+Przyjmuje: wektor vec typu vector<int>&.
+Zwraca: posortowany w miejscu wektor.</br>
+quickSort
+
+Przyjmuje: wektor vec typu vector<int>&.
+Zwraca: posortowany wektor przez referencję.
+TEST(BenchmarkTest, QuickSortBenchmark)
+
+Przyjmuje: brak.
+Zwraca: wynik testu jednostkowego oraz czas działania Quick Sort.
+TEST(BenchmarkTest, BubbleSortBenchmark)
+
+Przyjmuje: brak.
+Zwraca: wynik testu jednostkowego oraz czas działania Bubble Sort.
