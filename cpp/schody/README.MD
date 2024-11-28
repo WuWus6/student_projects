@@ -100,4 +100,5 @@ TEST(KalkulatorSchodowTest, ObliczGlebokoscStopnia) {
     EXPECT_NEAR(kalkulator.obliczGlebokoscStopnia(17), 29.41, 0.01);
 }
 ~~~~
+Testy sprawdzają poprawność metod klasy KalkulatorSchodow, weryfikując, czy wyniki są zgodne z oczekiwaniami.
 ## Wynik testu
