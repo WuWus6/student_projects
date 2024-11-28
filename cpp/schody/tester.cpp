@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "stairs.cpp"  // Włącz plik z kodem klasy KalkulatorSchodow
+#include "main.cpp"  // Włącz plik z kodem klasy KalkulatorSchodow
 
 // Test konstrukcji obiektu KalkulatorSchodow
 TEST(KalkulatorSchodowTest, Konstruktor) {
