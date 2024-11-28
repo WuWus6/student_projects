@@ -82,6 +82,22 @@ int main() {
 Funkcja main odpowiada za interakcję z użytkownikiem, przyjmując wartości wejściowe i wywołując odpowiednie metody klasy KalkulatorSchodow. W razie błędnych wartości wejściowych (np. niewłaściwa wysokość stopnia) program wyświetli odpowiedni komunikat błędu.
 ## Kod test
 ~~~~ cpp
+#include <gtest/gtest.h>
+#include "stairs.cpp"
 
+TEST(KalkulatorSchodowTest, ObliczLiczbeStopni) {
+    KalkulatorSchodow kalkulator(500, 300);
+    EXPECT_EQ(kalkulator.obliczLiczbeStopni(18), 17);
+}
+
+TEST(KalkulatorSchodowTest, ObliczWysokoscStopnia) {
+    KalkulatorSchodow kalkulator(500, 300);
+    EXPECT_NEAR(kalkulator.obliczWysokoscStopnia(17), 17.65, 0.01);
+}
+
+TEST(KalkulatorSchodowTest, ObliczGlebokoscStopnia) {
+    KalkulatorSchodow kalkulator(500, 300);
+    EXPECT_NEAR(kalkulator.obliczGlebokoscStopnia(17), 29.41, 0.01);
+}
 ~~~~
 ## Wynik testu
