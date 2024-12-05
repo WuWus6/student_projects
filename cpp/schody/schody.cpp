@@ -9,12 +9,12 @@ public:
         : dlugoscSchodow(dlugoscSchodow), wysokoscPietra(wysokoscPietra) {}
 
     // // Funkcja obliczająca liczbę stopni na podstawie docelowej wysokości stopnia
-    // int obliczLiczbeStopni(double wysokoscStopniaDocelowa) {
-    //     if (wysokoscStopniaDocelowa < 17.0 || wysokoscStopniaDocelowa > 19.0) {
-    //         throw std::invalid_argument("Wysokość stopnia musi być pomiędzy 17 a 19 cm.");
-    //     }
-    //     return static_cast<int>(std::round(wysokoscPietra / wysokoscStopniaDocelowa));
-    // }
+    int obliczLiczbeStopni(double wysokoscStopniaDocelowa) {
+        if (wysokoscStopniaDocelowa = 18) {
+            throw std::invalid_argument("Wysokość stopnia wynosi 18");
+        }
+        return static_cast<int>(std::round(wysokoscPietra / wysokoscStopniaDocelowa));
+    }
 
 //     int obliczLiczbeStopni(double wysokoscPietra, double minWysokoscStopnia = 17.0, double maxWysokoscStopnia = 19.0) {
 //     // Liczymy wstępnie liczbę stopni dla maksymalnej i minimalnej wysokości stopnia
@@ -30,11 +30,11 @@ public:
 //         return static_cast<int>(std::round(wysokoscPietra / wysokoscStopniaDocelowa));
 //     }
 
-// Funkcja obliczająca liczbę stopni na podstawie średniej wysokości stopnia
-    int obliczLiczbeStopni() {
-        constexpr double sredniaWysokoscStopnia = (17.0 + 19.0) / 2; // Średnia z 17 i 19
-        return static_cast<int>(std::round(wysokoscPietra / sredniaWysokoscStopnia));
-    }
+// // Funkcja obliczająca liczbę stopni na podstawie średniej wysokości stopnia
+//     int obliczLiczbeStopni() {
+//         constexpr double sredniaWysokoscStopnia = (17.0 + 19.0) / 2; // Średnia z 17 i 19
+//         return static_cast<int>(std::round(wysokoscPietra / sredniaWysokoscStopnia));
+//     }
 
     // Funkcja obliczająca rzeczywistą wysokość stopnia
     double obliczWysokoscStopnia(int iloscStopni) {
